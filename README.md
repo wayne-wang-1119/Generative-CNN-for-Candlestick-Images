@@ -2,6 +2,10 @@
 
 ## Answer: You get a FinTech project with high accuracy!
 
+## Project Arch
+Capstone.ipynb contains all the CNN model training see below for an explanation, done over Google Colab
+GAN.ipynb contains all the GAN model training and generating, done through Kaggle with a free Nvidia P100 GPU
+
 ## Project Description
 
 ### Idea
