@@ -4,6 +4,3 @@
 
 ## Project Description
 
-### The system design MVC view, with supporting functions to develop
-
-![Alt text](images/chatuml-diagram.png?raw=true "Title")
