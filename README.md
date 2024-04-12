@@ -37,7 +37,8 @@ We integrated the images, 70 small sample images and 840 generated images, toget
 ### Unfortunate failure
 
 We tested the new Inception V3 model on the previously collected, 420 images. It turns out we are not able to generate statistically significant result. The experiment solution fails unfortunately.
+The reason behind it is simple. We should remove coloring from the images to have GAN generate pure pattern-based images. 
 
 ### Conclusion
 
-Our failure comes directly from lack of computing power. From the example images we are able to generate, it is clear that the images are looking more and more similar to their category patterns, and with higher resolutions. We believe with more compute power, this new approach could help us capture patterns of candlestick images with a more life-like behavior, achieving better performance than only on timeseries data for daily traders who are not professionals to build and deploy.
+Our failure comes directly from two reasons. Coloring and lack of computing power. Coloring is unnecessary because we have GAN to almost as if doing feature engineering for us to pick out the most dominant patterns from the human-eyeballed images, further reducing biases. This is also proven effective by the result of >90% accuracy on the new model. On the other hand, from the example images we are able to generate, it is clear that the images are looking more and more similar to their category patterns, and with higher resolutions. We believe with more computing power, this new approach could help us capture patterns of candlestick images with a more life-like behavior, achieving better performance than only on time series data for daily traders who are not professionals to build and deploy.
